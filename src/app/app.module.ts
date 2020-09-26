@@ -9,6 +9,8 @@ import { MovieListComponent } from './movie-list/movie-list.component';
 import { BoldGreenTextDirective } from './bold-green-text.directive';
 import { DisplayMoviesDirective } from './display-movies.directive';
 import { MenuComponent } from './menu/menu.component';
+import { SignupComponent } from './signup/signup.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { MenuComponent } from './menu/menu.component';
     MovieListComponent,
     BoldGreenTextDirective,
     DisplayMoviesDirective,
-    MenuComponent
+    MenuComponent,
+    SignupComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
