@@ -8,6 +8,7 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { MovieListComponent } from './movie-list/movie-list.component';
 import { BoldGreenTextDirective } from './bold-green-text.directive';
 import { DisplayMoviesDirective } from './display-movies.directive';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DisplayMoviesDirective } from './display-movies.directive';
     UserProfileComponent,
     MovieListComponent,
     BoldGreenTextDirective,
-    DisplayMoviesDirective
+    DisplayMoviesDirective,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
